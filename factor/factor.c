@@ -19,7 +19,6 @@ void primeFactors(int n)
 
 int main(int argc, char *argv[])
 {
- 	int i, j, isPrime;
 	int num1 = atoi(argv[1]);
 	printf("%d: ", num1);
 	primeFactors(num1);
